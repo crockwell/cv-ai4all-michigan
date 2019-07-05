@@ -1,4 +1,4 @@
-# cv-ai4all-pton
+# cv-ai4all-michigan
 Computer Vision Project for AI4All at Michigan, 2019.
 Adapted from [Computer Vision Project for AI4All at Princeton](https://github.com/lujonathanh/cv-ai4all-pton).
 
@@ -19,7 +19,7 @@ source $VPATH/bin/activate
 # clone repo into BASEDIR-- set it to be the base directory of the folder
 BASEDIR=
 cd $BASEDIR
-git clone https://github.com/xcyan/cv-ai4all-pton.git
+git clone https://github.com/xcyan/cv-ai4all-michigan.git
 cd cv-ai4all-pton
 
 # install requirements
