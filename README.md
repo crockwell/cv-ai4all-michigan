@@ -3,6 +3,7 @@ Computer Vision Project for AI4All at Princeton, 2017.
 
 # Installation
 
+## Macbook
 ```BASH
 #IF VIRTUALENV NEEDED: make a virtualenv (https://packaging.python.org/guides/installing-using-pip-and-virtualenv/)
 alias python=python3; PYTHONPATH=""
@@ -33,6 +34,12 @@ sudo python -m ipykernel install --user
 deactivate
 ```
 
+## Linux
+```
+TBD: setup anaconda
+```
 
-# TODO
-* Test script that confirms installation was successful
+## Windows
+```
+TBD
+```
