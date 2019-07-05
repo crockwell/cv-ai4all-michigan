@@ -1,5 +1,6 @@
 # cv-ai4all-pton
-Computer Vision Project for AI4All at Princeton, 2017.
+Computer Vision Project for AI4All at Michigan, 2019.
+Adapted from [Computer Vision Project for AI4All at Princeton](https://github.com/lujonathanh/cv-ai4all-pton).
 
 # Installation
 
