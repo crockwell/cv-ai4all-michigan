@@ -17,14 +17,14 @@ source $VPATH/bin/activate
 # clone repo into BASEDIR-- set it to be the base directory of the folder
 BASEDIR=
 cd $BASEDIR
-git clone https://github.com/lujonathanh/cv-ai4all-pton.git
+git clone https://github.com/xcyan/cv-ai4all-pton.git
 cd cv-ai4all-pton
 
 # install requirements
 while read f; do brew install $f; done < requirements.txt
 
 # install python requirements
-pip install -r requirements.txt
+pip install -r python-requirements.txt
 
 #IF VIRTUALENV NEEDED: install the kernel so that jupyter can find the ipykernel
 sudo python -m ipykernel install --user
