@@ -108,7 +108,7 @@ TBD
 
 # Jupyter Notebook
 ## Lanuch Juypter Notebook
-Type the following command line in the terminal and you will see the interface in the web browser.
+Type in the following command line in the terminal and you will see the interface in the web browser.
 ```
 jupyter notebook
 ```
