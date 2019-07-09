@@ -91,6 +91,14 @@ cd cv-ai4all-michigan
 # install requirements
 while read f; do conda install $f; done < requirements.txt
 
+# install python requirements
+pip install -r python-requirements.txt
+
+#IF VIRTUALENV NEEDED: install the kernel so that jupyter can find the ipykernel
+python -m ipykernel install --user
+
+#IF VIRTUALENV NEEDED: if in virtual environment, deactivate the package
+deactivate
 ```
 
 ## Windows
